@@ -22,7 +22,7 @@ This query returns all columns from the film table for rows where the length is 
 ```sql
 Copy code
 SELECT * FROM film WHERE rental_rate = 0.99 AND (replacement_cost = 12.99 OR replacement_cost = 28.99);
-,``` 
+``` 
 
 This query filters the film table to display rows where the rental_rate is 0.99 and the replacement_cost is either 12.99 or 28.99.
 
@@ -42,8 +42,4 @@ SELECT * FROM film WHERE length < 50 AND NOT(rental_rate = 2.99 OR rental_rate =
 
 This query returns all columns from the film table for rows where the length is less than 50 and the rental_rate is neither 2.99 nor 4.99.
 
-Getting Started
-To run these queries, you need access to a PostgreSQL database with the appropriate tables (film and customer). You can execute these queries using any PostgreSQL client such as pgAdmin, psql, or DBeaver.
 
-License
-This project is licensed under the MIT License.
