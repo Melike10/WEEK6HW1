@@ -3,7 +3,7 @@ This repository contains SQL queries related to the PostgreSQL database as part 
 
 ## Queries Overview
 # 1. Retrieve title and description columns from the film table
-''' SQL
+'''SQL
 SELECT title, description FROM film;
 
 This query selects and displays the title and description columns from all rows in the film table.
